@@ -79,6 +79,18 @@ Let's say we have an array `[3, 8, 12, 15, 6, 9, 10]` and we want to sort it usi
 
 Understanding in-place merge sort can be a bit challenging initially, but with practice and implementation, you'll get a better grasp of how it works.
 
- Quick sort
+ ## Quick Sort
+-	It is an example of  divide-and-conquer algorithm 
+-	check here https://algorithm-visualizer.vercel.app/sorting#
+-	we can say an item is sorted if the items before the mentioned item are smaller and the items after it are larger.
+-	check video here https://www.youtube.com/watch?v=7h1s2SojIRw&pp=ygUScXVpY2sgc2VhcmNoIGFiZHVs
+
+|                |Best                          |Worst                         |
+|----------------|-------------------------------|-----------------------------|
+|positioning     |`O(n)`                               |`O(n)`            |
+|# number Of times      |`o(log n)`                    |`O(n)`      |
+|Total           |`o(n logn)`                         |`o(n^2)`          |
+|Space           |`o(n logn)`                         |`o(n)`          |
+
 
 
